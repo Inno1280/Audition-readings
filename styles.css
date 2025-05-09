@@ -47,7 +47,7 @@ ol.reading-list li::before {
 
 .reading-link {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /* color: black; */
 }
 
@@ -59,16 +59,19 @@ ol.reading-list li::before {
 /* styling for reading body proper */
 
 .reading-no {
+    font-size: 1.5rem;
     color: red;
     text-align: justify;
 }
 
 .reading-title {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .reading-body,
 .reading-chapter {
+    font-size: 1.5rem;
     text-align: justify;
     line-height: 1.5;
 }
@@ -107,7 +110,7 @@ ol.reading-list li::before {
 /* Styling for the arrangement of the link page numbers */
 .links-container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr, 1fr;
     gap: 0.3rem;
 }
